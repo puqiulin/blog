@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc5ff6b8-d3f2-4af9-87f3-6647ff96b451" name="Changes" comment="" />
+    <list default="true" id="bc5ff6b8-d3f2-4af9-87f3-6647ff96b451" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/content/posts/articles/first-hugo-post/fist-hugo-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/daily/2023-10-31/2023-10-31.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/daily/2023-10-31.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/papermod-cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/articles/first-hugo-post/assets/hugo-papermod.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/js/highlight.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod/assets/js/highlight.min.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,12 +34,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1698659012" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1698659011" />
+                    <option name="lastUsedInstant" value="1698734525" />
                   </RecentBranch>
                 </list>
               </option>
@@ -62,10 +69,10 @@
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/oneday/work/self/blog/content/posts/daily",
+    "last_opened_file_path": "/Users/oneday/work/self/blog/content/posts/english",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -73,7 +80,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/posts/english" />
       <recent name="$PROJECT_DIR$/content/posts/daily" />
+      <recent name="$PROJECT_DIR$/themes/PaperMod/layouts/partials" />
+      <recent name="$PROJECT_DIR$/content/posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/posts/daily/2023-10-31" />
+      <recent name="$PROJECT_DIR$/content/posts/articles" />
+      <recent name="$PROJECT_DIR$/content/posts/daily" />
+      <recent name="$PROJECT_DIR$/content/posts/first-hugo-post" />
       <recent name="$PROJECT_DIR$/content/posts" />
     </key>
   </component>

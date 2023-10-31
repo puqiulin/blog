@@ -1,4 +1,4 @@
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://localhost:1313/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Jack
 paginate: 5
 theme: PaperMod
@@ -32,6 +32,9 @@ languages:
                 - name: Search
                   url: search/
                   weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
                 - name: Tags
                   url: tags/
                   weight: 10
@@ -46,7 +49,6 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
     author: ["Jack"]
-    # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -60,7 +62,7 @@ params:
     ShowRssButtonInSectionTermList: true
     ShowToc: true
     TocOpen: false
-    # comments: false
+    comments: true
     images: ["papermod-cover.png"]
 
     profileMode:
@@ -68,8 +70,8 @@ params:
         title: PaperMod
         imageUrl: "#"
         imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
+#         imageWidth: 120
+#         imageHeight: 120
         buttons:
             - name: Archives
               url: archives
@@ -88,7 +90,7 @@ params:
           url: "https://twitter.com/puqiulin1"
 
     editPost:
-        URL: "https://github.com/puqiulin/blog/content"
+        URL: "https://github.com/puqiulin/blog/blob/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
 
@@ -161,3 +163,5 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+    disqus:
+        shortname: Jack
