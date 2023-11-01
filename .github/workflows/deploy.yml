@@ -18,7 +18,7 @@ jobs:
       with:
         hugo-version: 'latest'
 
-    - name: Build
+    - name: Build Hugo
       run: hugo --minify
 
     - name: Deploy to VPS
@@ -30,7 +30,7 @@ jobs:
         source: "./public/*"
         target: "/var/www/html"
 
-    - name: Refresh Caddy (Optional)
+    - name: Refresh Caddy
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.VPS_HOST }}
