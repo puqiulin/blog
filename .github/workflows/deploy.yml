@@ -9,7 +9,6 @@ jobs:
   deploy:
     runs-on: vps
 
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
