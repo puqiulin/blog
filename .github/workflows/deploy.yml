@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: racknerd-2313aa
+    runs-on: vps
 
     steps:
     - name: Checkout repository
