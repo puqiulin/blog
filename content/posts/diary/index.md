@@ -8,6 +8,15 @@ tags: ["diary"]
 ShowToc: true
 ---
 
+## 2023-11-01
+### Add the User to the Sudo Group
+```shell
+usermod -aG sudo username
+```
+
+---
+
+
 ## 2023-10-31
 ### 速度、延迟还不错的梯子
 - [风之谷](https://fengzg.net/#/register)
