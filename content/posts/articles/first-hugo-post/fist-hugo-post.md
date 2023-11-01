@@ -1,6 +1,6 @@
 ---
 title: "First hugo post"
-date: "2023-10-31"
+date: "2023-10-06"
 description: "This is my first hugo post"
 tags: ["article"]
 categories: ["article"]
