@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc5ff6b8-d3f2-4af9-87f3-6647ff96b451" name="Changes" comment="feat: init">
-      <change afterPath="$PROJECT_DIR$/content/posts/diary/assets/wechat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/diary/index.md" afterDir="false" />
+    <list default="true" id="bc5ff6b8-d3f2-4af9-87f3-6647ff96b451" name="Changes" comment="feat: add diary">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/articles/first-hugo-post/fist-hugo-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/articles/first-hugo-post/fist-hugo-post.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/daily/2023-10-31/2023-10-31.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/PaperMod" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: init" />
+    <MESSAGE value="feat: add diary" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add diary" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
