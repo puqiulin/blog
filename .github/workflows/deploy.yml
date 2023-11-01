@@ -28,7 +28,7 @@ jobs:
         username: ${{ secrets.VPS_USERNAME }}
         key: ${{ secrets.VPS_PRIVATE_KEY }}
         source: "./public/*"
-        target: "/var/www/html" # Update with your path on VPS
+        target: "/var/www/html"
 
     - name: Refresh Caddy (Optional)
       uses: appleboy/ssh-action@master
@@ -36,4 +36,4 @@ jobs:
         host: ${{ secrets.VPS_HOST }}
         username: ${{ secrets.VPS_USERNAME }}
         key: ${{ secrets.VPS_PRIVATE_KEY }}
-        script: "sudo systemctl restart caddy" # or whichever command you use to refresh Caddy
+        script: "sudo systemctl restart caddy"

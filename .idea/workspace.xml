@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc5ff6b8-d3f2-4af9-87f3-6647ff96b451" name="Changes" comment="feat: add diary">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+    <list default="true" id="bc5ff6b8-d3f2-4af9-87f3-6647ff96b451" name="Changes" comment="feat: add github action">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: init" />
     <MESSAGE value="feat: add diary" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add diary" />
+    <MESSAGE value="feat: add github action" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add github action" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
