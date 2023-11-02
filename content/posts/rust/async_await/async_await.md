@@ -1,5 +1,5 @@
 ---
-title: "First hugo post"
+title: "Rust: async/await"
 date: "2023-11-02"
 description: "async/await"
 tags: ["rust"]
