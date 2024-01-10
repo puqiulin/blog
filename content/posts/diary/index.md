@@ -1,6 +1,6 @@
 ---
 author: "hxp"
-title: "Diary✍️"
+title: "✍️ Diary"
 date: "2023-10-26"
 description: "Documenting my daily experiences"
 categories: ["diary"]
@@ -8,15 +8,31 @@ tags: ["diary"]
 ShowToc: true
 ---
 
+## 2023-11-08
+### Animation diagram algorithm
+[hello算法](https://www.hello-algo.com)
+
+### IELTS Daily youtube channel
+[IELTS Daily](https://www.youtube.com/@IELTSDaily)
+
+---
+
+
+## 2023-11-07
+### The implementation of Async Rust
+[Async Rust](https://www.tisonkun.org/2023/11/05/async-rust/)
+
+### A easy-to-use translation macOS App
+[Easydict](https://github.com/tisfeng/Easydict)
+
+---
+
+
 ## 2023-11-01
 ### Add the User to the Sudo Group
 ```shell
 usermod -aG sudo username
 ```
-
-
-
-
 
 ---
 
