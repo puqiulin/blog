@@ -29,8 +29,7 @@ jobs:
       uses: easingthemes/ssh-deploy@main
       with:
         SSH_PRIVATE_KEY: ${{ secrets.VPS_PRIVATE_KEY }}
-        ARGS: "-rlgoDzvc -i --delete"
-        SOURCE: "dist/"
+        SOURCE: "public/"
         REMOTE_HOST: ${{ secrets.VPS_HOST }}
         REMOTE_USER: ${{ secrets.VPS_USER }}
         TARGET: "/var/www/html/blog"
