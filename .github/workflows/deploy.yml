@@ -26,7 +26,7 @@ jobs:
       run: hugo --minify
 
     - name: Deploy
-      uses: easingthemes/ssh-deploy@
+      uses: easingthemes/ssh-deploy@main
       with:
         SSH_PRIVATE_KEY: ${{ secrets.VPS_PRIVATE_KEY }}
         ARGS: "-rlgoDzvc -i --delete"
