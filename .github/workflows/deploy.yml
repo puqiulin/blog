@@ -25,9 +25,9 @@ jobs:
 
     - name: Deploy to VPS
       uses: easingthemes/ssh-deploy@v5
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.VPS_PRIVATE_KEY }}
-          SOURCE: "public/"
-          REMOTE_HOST: ${{ secrets.VPS_HOST }}
-          REMOTE_USER: ${{ secrets.VPS_USERNAME }}
-          TARGET: "/var/www/html/blog"
+      with:
+        SSH_PRIVATE_KEY: ${{ secrets.VPS_PRIVATE_KEY }}
+        SOURCE: "public/"
+        REMOTE_HOST: ${{ secrets.VPS_HOST }}
+        REMOTE_USER: ${{ secrets.VPS_USERNAME }}
+        TARGET: "/var/www/html/blog"
