@@ -32,4 +32,4 @@ jobs:
         SOURCE: "public/"
         REMOTE_HOST: ${{ secrets.VPS_HOST }}
         REMOTE_USER: ${{ secrets.VPS_USER }}
-        TARGET: "/var/www/html/blog"
+        TARGET: "/var/www/html/blog/"
