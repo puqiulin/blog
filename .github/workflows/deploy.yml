@@ -24,7 +24,7 @@ jobs:
       run: hugo --minify
 
     - name: Deploy to VPS
-      uses: easingthemes/ssh-deploy@v5
+      uses: easingthemes/ssh-deploy@main
       with:
         SSH_PRIVATE_KEY: ${{ secrets.VPS_PRIVATE_KEY }}
         SOURCE: "public/"
