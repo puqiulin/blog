@@ -24,20 +24,10 @@ jobs:
       run: hugo --minify
 
     - name: Deploy to VPS
-      uses: appleboy/scp-action@master
-      with:
-        host: ${{ secrets.VPS_HOST }}
-        username: ${{ secrets.VPS_USERNAME }}
-        key: ${{ secrets.VPS_PRIVATE_KEY }}
-        passphrase: ${{ secrets.VPS_SECRET }}
-        source: "./public/*"
-        target: "/var/www/html/"
-
-    - name: Refresh Caddy
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.VPS_HOST }}
-        username: ${{ secrets.VPS_USERNAME }}
-        key: ${{ secrets.VPS_PRIVATE_KEY }}
-        passphrase: ${{ secrets.VPS_SECRET }}
-        script: "sudo systemctl restart caddy"
+      uses: easingthemes/ssh-deploy@v5
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.VPS_PRIVATE_KEY }}
+          SOURCE: "public/"
+          REMOTE_HOST: ${{ secrets.VPS_HOST }}
+          REMOTE_USER: ${{ secrets.VPS_USERNAME }}
+          TARGET: "/var/www/html/blog"
