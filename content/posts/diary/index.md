@@ -6,6 +6,8 @@ description: "Documenting my daily experiences"
 categories: ["diary"]
 tags: ["diary"]
 ShowToc: true
+#cover:
+#  image: "assets/wechat.png"
 ---
 
 ## 2023-11-08

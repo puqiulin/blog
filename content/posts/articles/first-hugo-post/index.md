@@ -5,6 +5,6 @@ description: "This is my first hugo post"
 tags: ["article"]
 categories: ["article"]
 cover:
-    image: "hugo-papermod.png"
+    image: "assets/hugo-papermod.png"
 ---
 # This is my first hugo post!
