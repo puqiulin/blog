@@ -13,21 +13,24 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        submodules: 'true'
+        submodules: "recursive"
+        fetch-depth: 0
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
+        extended: true
 
     - name: Build Hugo
       run: hugo --minify
 
-    - name: Deploy to VPS
-      uses: easingthemes/ssh-deploy@main
+    - name: Deploy
+      uses: easingthemes/ssh-deploy@
       with:
         SSH_PRIVATE_KEY: ${{ secrets.VPS_PRIVATE_KEY }}
-        SOURCE: "public/"
+        ARGS: "-rlgoDzvc -i --delete"
+        SOURCE: "dist/"
         REMOTE_HOST: ${{ secrets.VPS_HOST }}
-        REMOTE_USER: ${{ secrets.VPS_USERNAME }}
+        REMOTE_USER: ${{ secrets.VPS_USER }}
         TARGET: "/var/www/html/blog"
