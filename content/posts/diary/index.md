@@ -4,7 +4,6 @@ title: "✍️ Diary"
 date: "2023-10-26"
 description: "Documenting my daily experiences"
 categories: ["diary"]
-tags: ["diary"]
 ShowToc: true
 #cover:
 #  image: "assets/wechat.png"

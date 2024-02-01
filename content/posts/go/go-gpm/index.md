@@ -2,7 +2,6 @@
 title: "Golang：GPM调度器"
 date: "2024-01-11"
 description: ""
-tags: ["Golang","GPM"]
 categories: ["Golang"]
 cover:
     image: "assets/hugo-papermod.png"

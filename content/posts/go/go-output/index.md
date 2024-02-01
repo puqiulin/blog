@@ -2,7 +2,6 @@
 title: "Golang：程序预期输出"
 date: "2024-01-11"
 description: ""
-tags: ["Golang"]
 categories: ["Golang"]
 ---
 
