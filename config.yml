@@ -19,9 +19,9 @@ languages:
         languageName: "English"
         weight: 1
         taxonomies:
-          category: categories
-          tag: tags
-          series: series
+            category: categories
+            tag: tags
+            series: series
         menu:
             main:
                 - name: 🗃️ Archive
@@ -66,13 +66,13 @@ params:
         title: PaperMod
         imageUrl: "#"
         imageTitle: my image
-#         imageWidth: 120
-#         imageHeight: 120
+        #         imageWidth: 120
+        #         imageHeight: 120
         buttons:
             - name: Archives
               url: archives
-            - name: Tags
-              url: tags
+            # - name: Tags
+            #   url: tags
 
     homeInfoParams:
         Title: "Hi there 👋"
