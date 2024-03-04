@@ -7,3 +7,4 @@ cover:
     image: "assets/hugo-papermod.png"
 ---
 # This is my first hugo post!
+> Based on [Hugo](https://github.com/gohugoio/hugo) and [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod)

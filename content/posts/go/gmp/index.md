@@ -1,12 +1,12 @@
 ---
-title: "Golang：GPM调度器"
+title: "Go语言中的GPM调度器"
 date: "2024-01-11"
 description: ""
 categories: ["Golang"]
 cover:
     image: "assets/hugo-papermod.png"
 ---
-# Go语言的GPM调度器是什么？
+# GPM调度器
 
 Go语言天然支持高并发，原因是内部有协程（goroutine）加持，可以在一个进程中启动成千上万个协程
 
@@ -191,4 +191,12 @@ type p struct {
 sysmon是我们的保洁阿姨，它是一个M，又叫监控线程，不需要P就可以独立运行，每20us~10ms会被唤醒一次出来打扫卫生，
 主要工作就是回收垃圾、 回收长时间系统调度阻塞的P、向长时间运行的G发出抢占调度等等
 
-> 原文链接：<a href="https://github.com/lifei6671/interview-go/blob/master/base/go-gpm.md" target="_blank">Go语言的GPM调度器是什么?</a>
+## GPM的优势
+### 传统并发的劣势
+- 每个线程的占用较大栈空间(至少 2M)
+- 由内核控制，上下文切换会从用户态到内核态再到用户态，一次切换就是一次 I/O (内存的读写)
+### Goroutine优势
+- 每个goroutine占用栈空间小(2KB ～ 2GB)
+- 上下文都在用户态切换，不会涉及到内核态，而且包含的信息极少
+
+> 原文链接：<a href="https://github.com/lifei6671/interview-go/blob/master/base/go-GPM.md" target="_blank">Go语言的GPM调度器是什么?</a>
