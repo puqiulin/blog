@@ -32,4 +32,4 @@ jobs:
         username: ${{ secrets.VPS_USER }}
         key: ${{ secrets.VPS_PRIVATE_KEY }}
         source: "public/*"
-        target: "/var/www/blog/"
+        target: "/var/www/blog"
