@@ -27,15 +27,15 @@ languages:
                 - name: 🗃️ Archive
                   url: archives
                   weight: 5
-                - name: 🔍 Search
-                  url: search/
-                  weight: 10
                 - name: 🗄️ Categories
                   url: categories/
                   weight: 10
-                - name: 🏷️ Tags
-                  url: tags/
-                  weight: 10
+                - name: 🔍 Search
+                  url: search/
+                  weight: 15
+                # - name: 🏷️ Tags
+                #   url: tags/
+                #   weight: 10
 
 outputs:
     home:
